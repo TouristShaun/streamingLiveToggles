@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@vercel/node": "^1.12.1",
-    "deepgram": "^1.0.0"
+    "deepgram": "^1.0.0",
+    "frisbee": "^3.1.4"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/deepgram-streaming-transcription.git"
