@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepgram Streaming Transcription</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Deepgram Streaming Transcription</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Transcription Settings</h2>
+      <form id="transcription-settings">
+        <label for="audio-url">Audio URL:</label>
+        <input type="url" id="audio-url" name="audio-url" required>
+        <br>
+        <label for="diarization">Diarization:</label>
+        <input type="checkbox" id="diarization" name="diarization">
+        <br>
+        <label for="smart-format">Smart Format:</label>
+        <input type="checkbox" id="smart-format" name="smart-format">
+        <br>
+        <button type="submit">Start Transcription</button>
+      </form>
+    </section>
+    <section>
+      <h2>Transcription Results</h2>
+      <pre id="transcription-results"></pre>
+    </section>
+  </main>
+  <script src="/js/app.js"></script>
+  <script src="/js/deepgram.js"></script>
+  <script src="/js/toggle.js"></script>
+</body>
+</html>

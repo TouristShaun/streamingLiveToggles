@@ -1,0 +1,22 @@
+{
+  "name": "deepgram-streaming-transcription",
+  "version": "1.0.0",
+  "description": "A DEEPGRAM streaming transcription app with diarization and Smart Format, hosted on Vercel using edge functions.",
+  "main": "api/edge-function.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "@vercel/node": "^1.12.1",
+    "deepgram": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/deepgram-streaming-transcription.git"
+  },
+  "author": "Your Name <youremail@example.com>",
+  "license": "MIT"
+}
